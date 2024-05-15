@@ -62,7 +62,7 @@ header > p{
       padding: 10px;
       cursor: pointer;
       border-radius: 5px;
-      text-decoration: underline;
+      
 }
 #escuro{
     border: none;
@@ -73,7 +73,8 @@ header > p{
       cursor: pointer;
       padding: 10px;
       border-radius: 5px;
-      text-decoration: underline;
+      
+      transition-duration: 0.5s;
 }
 nav{
     background-color: #FB6107;
@@ -95,11 +96,13 @@ nav> a:hover{
 }
 #claro:hover{
     background-color: #F3E603;
-    color: whitesmoke;
+    color: black;
+    transition-duration: 0.5s;
 }
 #escuro:hover{
     background-color: #F3E603;
     color: black;
+    transition-duration: 0,5s;
 }
 main{
     background-color: transparent;
